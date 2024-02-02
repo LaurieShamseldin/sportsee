@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap');
+
+.recharts-cartesian-grid-horizontal line:first-of-type {
+  stroke-dasharray: none !important; 
+}
+
+.custom-tooltip {
+  background:#E60000;
+  color: white;
+  padding: 15px;
+  font-size:10px;
+}
+
+.recharts-yAxis.recharts-cartesian-axis-ticks {
+  background:red;
+}
+
+
+.user__activity-sport {
+  padding:30px;
+  background:#FBFBFB;
+  font-family:'Roboto', sans-serif;
+  border-radius:5px;
+}
+
+.user__activity-sport-header {
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight:500;
+  margin-bottom:50px;
+}
+
+.sport-legend {
+  display:flex;
+  align-items: center;
+  color:#74798C;
+}
+
+.legend-weight {
+  width:10px;
+  height:10px;
+  background:#282D30;
+  border-radius:10px;
+  margin-right:10px;
+}
+
+.legend-weight-text {
+  margin-right:40px;
+}
+
+
+.legend-calories {
+  width:10px;
+  height:10px;
+  background:#E60000;
+  border-radius:10px;
+  margin-right:10px;
+}

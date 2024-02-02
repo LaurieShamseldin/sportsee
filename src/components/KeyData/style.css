@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap');
+
+.user__sport {
+  display:flex;
+  column-gap: 10px;
+  align-items: center;
+  background:#FBFBFB;
+  border-radius:5px;
+  padding:30px 20px;
+  margin-bottom:70px;
+  width:170px;
+  font-family:'Roboto', sans-serif;
+}
+
+.user__sport-info span {
+  display:block;
+}
+
+.calories {
+  background-color: rgba(255,0,0,.06);
+}
+
+.proteines {
+  background-color: rgba(74,184,255,.1);
+}
+
+.glucides {
+  background-color: rgba(249,206,35,.1)
+}
+
+.lipides {
+  background-color: rgba(253,81,129,.1);
+}
+
+.calories, .proteines, .glucides, .lipides {
+  align-items: center;
+  border-radius:5px;
+  display: flex;
+  justify-content: center;
+  width:60px;
+  height:60px;
+}
+
+.user__sport-data {
+  font-size:20px;
+  font-weight:500;
+  padding-bottom:5px;
+}
+
+.user__sport-name {
+  font-size:14px;
+  color:#74798C;
+}

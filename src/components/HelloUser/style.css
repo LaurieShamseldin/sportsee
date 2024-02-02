@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap');
+
+
+.hello__user {
+  font-family:'Roboto', sans-serif;
+  color:black;
+
+} 
+
+.hello__user h1 {
+  font-size:48px;
+}
+
+.hello__user-name {
+  color:#FF0101!important;
+} 
+
+.hello__applause {
+  font-size:18px;
+  margin-left:5px;
+}

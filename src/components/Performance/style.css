@@ -1,0 +1,7 @@
+.user__activity-performance {
+  border-radius:5px;
+  background:#282D30;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

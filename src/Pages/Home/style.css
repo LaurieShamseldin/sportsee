@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap');
+
+.home {
+  width:100%;
+  padding:40px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.home__title {
+  color:black;
+  font-size:48px;
+}
+
+.button__user a {
+  color:#FF0101;
+}
