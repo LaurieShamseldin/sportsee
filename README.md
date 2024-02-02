@@ -19,7 +19,6 @@
    ```bash
    npm run start
 
-  
 
 ### Installation et lancement du front-end
 1. Cloner le repo du front-end de SportSee :
@@ -33,5 +32,3 @@
 3. Lancer le back-end sur le port 5173
    ```bash
    yarn dev
-
-  
