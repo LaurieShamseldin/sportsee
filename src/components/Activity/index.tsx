@@ -48,7 +48,7 @@ const Activity = (): JSX.Element => {
         </div>
       </div>
       <BarChart
-          width={1060}
+          width={700}
           height={200}
           data={data}
           margin={{
@@ -58,7 +58,7 @@ const Activity = (): JSX.Element => {
             bottom: 5,
           }}
           >
-            <CartesianGrid vertical={false} width={900} strokeDasharray="3 1" />
+            <CartesianGrid vertical={false} width={550} strokeDasharray="3 1" />
             
             <XAxis 
               dataKey="name" 

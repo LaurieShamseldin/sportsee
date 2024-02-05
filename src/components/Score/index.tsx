@@ -45,7 +45,7 @@ export default function Score(): JSX.Element {
     return (
       <g>
         <circle cx={cx} cy={cy} r={90} fill="white" />
-        <text x={cx} y={cy - 30} fill="black" fontSize="xx-large" fontWeight="bold">
+        <text x={cx} y={cy - 30} fill="black" fontSize="large" fontWeight="bold">
           <tspan x={cx} dy="0" textAnchor="middle">
             {scoreData}%
           </tspan>
@@ -55,7 +55,7 @@ export default function Score(): JSX.Element {
           y={cy}
           textAnchor="middle"
           dominantBaseline="central"
-          fontSize="x-large"
+          fontSize="large"
           fontWeight={500}
           fill="#74798C"
         >
@@ -66,13 +66,13 @@ export default function Score(): JSX.Element {
           y={cy + 35}
           textAnchor="middle"
           dominantBaseline="central"
-          fontSize="x-large"
+          fontSize="large"
           fontWeight={500}
           fill="#74798C"
         >
           objectif
         </text>
-        <text x={cx - 90} y={cy - 120} fontSize="x-large" fill="black" fontWeight={500}>
+        <text x={cx - 90} y={cy - 120} fontSize="large" fill="black" fontWeight={500}>
           Score
         </text>
       </g>
@@ -83,10 +83,10 @@ export default function Score(): JSX.Element {
 
   return (
     <div className="user__activity-score">
-      <PieChart width={340} height={300}> 
+      <PieChart width={240} height={250}> 
         <Pie
           data={data}
-          cx={115}
+          cx={95}
           cy={150}
           innerRadius={90}
           outerRadius={100}

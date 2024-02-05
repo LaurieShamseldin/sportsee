@@ -9,6 +9,10 @@
   font-family:'Roboto', sans-serif;
 }
 
+.header__info img {
+  width:120px;
+}
+
 .header__links {
   width:100%;
 }
@@ -17,11 +21,11 @@
   display:flex;
   color:white;
   list-style: none;
-  font-size:24px;
+  font-size:16px;
   font-weight:400;
 }
 
 .navigation__links li {
   padding: 0 50px;
-  margin-right: 100px;
+  margin-left: 2rem;
 }

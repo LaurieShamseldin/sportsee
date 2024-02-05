@@ -5,3 +5,22 @@ body {
 .main {
   display:flex;
 }
+
+
+ @media screen and (max-width: 1440px) {
+
+
+  .user__activity-sport .recharts-wrapper {
+    width:580px!important;
+  }
+
+  .user__graph {
+    column-gap: 10px
+  }
+
+  .user__activity-session .recharts-wrapper, .user__activity-performance .recharts-wrapper, .user__activity-score .recharts-wrapper {
+    width:170px!important;
+  }
+
+ 
+ }

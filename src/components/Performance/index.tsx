@@ -29,7 +29,7 @@ const Performance = () => {
 
   return (
     <section className="user__activity-performance">
-    <RadarChart outerRadius={90} width={350} height={260} data={data} >
+    <RadarChart outerRadius={50} width={240} height={190} data={data} >
       <PolarGrid />
       <PolarAngleAxis dataKey="kindText" axisLine={{ stroke: "white" }} tick={{ fill: "white" }} fontSize={14} />
       <Radar name="User" dataKey="value" fill="#E60000" fillOpacity={0.7} />

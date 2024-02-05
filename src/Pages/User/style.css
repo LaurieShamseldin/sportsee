@@ -9,17 +9,17 @@
 
 .user__info-activity {
   display:flex;
-  column-gap:40px;
+  column-gap:10%;
   margin-top:50px;
 }
 
 .user__activity {
-  width:80%;
+  width:65%;
 }
 
 
 .user__graph {
   display:flex;
   margin-top:20px;
-  column-gap:20px;
+  column-gap:60px;
 }

@@ -2,7 +2,7 @@
 
 .sidebar {
   background:black;
-  width:90px;
+  width:70px;
   display: flex;
   flex-direction: column;
   align-items: center;

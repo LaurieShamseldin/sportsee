@@ -40,7 +40,7 @@ const Session = (): JSX.Element => {
   return (
     <section className="user__activity-session">
       <h3>Durée moyenne des sessions</h3>
-      <LineChart width={350} height={260} data={data} margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
+      <LineChart width={240} height={160} data={data} margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
 
         <XAxis dataKey="day" 
         axisLine={false} 
